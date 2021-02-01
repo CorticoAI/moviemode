@@ -1,0 +1,41 @@
+body.movie {
+  zoom: 3;
+  background-color: black;
+}
+
+.movie div[class^="HighlightCard_highlightCard"] {
+  overflow: visible;
+  background-color: black;
+  border: none;
+}
+.movie div[class^="HighlightCard_footer"] {
+  display: none;
+}
+
+.movie div .AudioControls {
+  display: none;
+}
+
+.movie div[class^=" TranscriptRoll_container"] {
+  max-height:100px;
+  color: #fff;
+}
+
+.movie div[class^="TranscriptRoll_seekHighlightBar"] {
+  background-color: #6352d9;
+  top: 6px;
+  height: 1.5em;
+}
+
+.movie div[class^="HighlightHeader_headerText"] {
+  display: none;
+}
+
+.movie button[class^="StylelessButton_button"] {
+  display: none;
+}
+
+.movie button[class^="PlayPauseButton_button"] {
+  position: absolute;
+  bottom: -100px;
+}
