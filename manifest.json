@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "LVN Movie Mode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Turn LVN Embeds into Movie Mode",
   "permissions": [
     "activeTab"
@@ -17,5 +17,8 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "matches": ["https://embed.lvn.org/*"]
-  }]
+  }],
+  "web_accessible_resources": [
+    "logo.svg",
+  ]
 }
