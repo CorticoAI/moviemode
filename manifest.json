@@ -19,6 +19,6 @@
     "matches": ["https://embed.lvn.org/*"]
   }],
   "web_accessible_resources": [
-    "logo.svg",
+    "logo.svg"
   ]
 }
